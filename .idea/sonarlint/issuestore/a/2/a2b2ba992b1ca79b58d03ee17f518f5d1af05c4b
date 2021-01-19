@@ -1,0 +1,10 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³çðÐ
+n
+java:S1450"SRemove the "game" field and declare it as a local variable in the relevant methods.(Ä¿–Žøÿÿÿÿ
+e	java:S116"PRename this field "TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¹ë²
+m	java:S116"XRename this field "RESUME_ANSWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îíËË
+7
+java:S1170"!Make this final field static too.(†¹ë²
+7
+java:S1170"!Make this final field static too.(îíËË

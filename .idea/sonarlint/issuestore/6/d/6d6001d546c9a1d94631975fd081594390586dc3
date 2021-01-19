@@ -1,0 +1,5 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(ìÝùÏ
+w	java:S116"]Rename this field "COMBINATION_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒÄÐóûÿÿÿÿ
+6
+java:S1170"!Make this final field static too.(î®¥I

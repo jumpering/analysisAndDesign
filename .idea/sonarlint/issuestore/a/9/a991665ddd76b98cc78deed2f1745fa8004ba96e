@@ -1,0 +1,8 @@
+
+>
+java:S1170"!Make this final field static too.(†¹ë²8¯ùé÷á.
+l	java:S116"PRename this field "TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¹ë²8¯ùé÷á.
+t	java:S116"XRename this field "RESUME_ANSWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îíËË8Ë“§øá.
+n	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(¸ëµ
+>
+java:S1170"!Make this final field static too.(îíËË8Ë“§øá.

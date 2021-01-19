@@ -1,0 +1,25 @@
+
+<<<<<<< HEAD
+>
+java:S1170"!Make this final field static too.(ƒá³º8Ö”ùŠà.
+t	java:S116"SRename this field "TEXT_WIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ä¥Ôÿÿÿÿÿ8ê¯şŠà.
+t	java:S116"XRename this field "TEXT_ATTEMPTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒá³º8è˜ıŠà.
+u	java:S116"TRename this field "TEXT_LOSE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÚÚûÿÿÿÿ8³ƒ‹à.
+=======
+t	java:S116"XRename this field "TEXT_ATTEMPTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒá³º8è˜ıŠà.
+u	java:S116"TRename this field "TEXT_LOSE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÚÚûÿÿÿÿ8³ƒ‹à.
+>
+java:S1170"!Make this final field static too.(ƒá³º8Ö”ùŠà.
+C
+java:S1170"!Make this final field static too.(“Ä¥Ôÿÿÿÿÿ8ëıŠà.
+>>>>>>> 3f400a771c543900ce7ef78ddb7e806c8978a15b
+{
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(†Îêúûÿÿÿÿ8À†ÿŠà.
+C
+java:S1170"!Make this final field static too.(úÚÚûÿÿÿÿ8êÉşŠà.
+<<<<<<< HEAD
+C
+java:S1170"!Make this final field static too.(“Ä¥Ôÿÿÿÿÿ8ëıŠà.
+=======
+t	java:S116"SRename this field "TEXT_WIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ä¥Ôÿÿÿÿÿ8ê¯şŠà.
+>>>>>>> 3f400a771c543900ce7ef78ddb7e806c8978a15b

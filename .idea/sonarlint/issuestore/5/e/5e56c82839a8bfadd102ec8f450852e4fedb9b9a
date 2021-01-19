@@ -1,0 +1,9 @@
+
+>
+<<<<<<< HEAD
+java:S1170"!Make this final field static too.(ºïÖÒ8Ê¤»£â.
+{	java:S116"_Rename this field "BLACK_PIECES_FOR_WIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºïÖÒ8Ê¤»£â.
+=======
+java:S1170"!Make this final field static too.(ºïÖÒ8™¾¬Øá.
+{	java:S116"_Rename this field "BLACK_PIECES_FOR_WIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ºïÖÒ8¹±®Øá.
+>>>>>>> 3f400a771c543900ce7ef78ddb7e806c8978a15b

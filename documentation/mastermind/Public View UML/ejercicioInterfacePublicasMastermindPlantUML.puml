@@ -1,0 +1,84 @@
+@startuml
+class mastermind {
++ play() : void
++ {static} main() : void
+- isResumed()
+}
+
+
+
+class Game{
+- {static} ATTEMPTS : int
+- secretCombination : secretCombination
++ play() : void
+- showAllAttempts() :void
+- isFinished() : boolean
+}
+
+class Attempt{
+- piecesBlack : int
+- piecesWhite : int
++toString() : String
++isWinner() : boolean
++ read(SecretCombination secretCombination) : void
+
+
+}
+
+Attempt *--> ProposedCombination
+Attempt ..> SecretCombination
+Game o-->"0..10" Attempt 
+
+class SecretCombination{
++ generateRandom() : void
++ getBlacks(ProposedCombination proposedCombination) : int
++ getWhites(ProposedCombination proposedCombination) : int
++ toString() : String
+}
+
+
+
+class ProposedCombination{
+- proposedCombination : String
++ read() : void
++ toString() : String
+- isValid() : boolean
+- isValidLength() : boolean
+- isValidColors() : boolean
+- isUniqueChars() : boolean
+}
+
+
+
+abstract class Combination{
+- colorList : ArrayList<Color>
+# toString() : String
++ hasColor(Color color) : boolean
+}
+
+
+
+
+Enum Color{
+RED
+BLUE
+YELLOW
+ORANGE
+PINK
+GREEN
++ toChar() : char
++ {static} valueOf(char character) : Color
++ {static} isValidColor(char character) : boolean
+}
+
+
+mastermind *--> Game
+Game *--> SecretCombination
+Game ..> Console
+SecretCombination -up-^ Combination
+ProposedCombination -up-^ Combination
+ProposedCombination ..> Console
+mastermind ..> Console
+Combination *-->"4" Color
+SecretCombination ..> ProposedCombination
+@enduml

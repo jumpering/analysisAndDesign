@@ -1,0 +1,33 @@
+@startuml chess
+
+chess *--> Turn
+chess *--> Board
+
+Turn *--> "2" Player
+
+Player *--> "16" Piece
+Player ..> Movement
+
+Board ..>Coordinate
+Board *--> "32" Piece
+Board o--> Movement
+
+Piece ..> Coordinate
+Piece *--> Movement
+Piece <|-- King
+Piece <|-- Pawn
+Piece <|-- Knight
+Movement o--> Origin
+Movement o--> Destination
+Origin o--> Horizontal
+Origin o--> Vertical
+Origin o--> Diagonal
+Origin o--> L
+
+Movement ..> Coordinate
+
+Destination --> CheckMate
+
+CheckMate --> King
+
+@enduml

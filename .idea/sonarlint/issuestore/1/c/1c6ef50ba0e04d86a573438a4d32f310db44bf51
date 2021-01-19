@@ -1,0 +1,13 @@
+
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(³çğĞ
+m	java:S116"XRename this field "TEXT_ATTEMPTS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ƒá³º
+m	java:S116"SRename this field "TEXT_WIN" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(“Ä¥Ôÿÿÿÿÿ
+n	java:S116"TRename this field "TEXT_LOSE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(úÚÚûÿÿÿÿ
+7
+java:S1170"!Make this final field static too.(ƒá³º
+<
+java:S1170"!Make this final field static too.(“Ä¥Ôÿÿÿÿÿ
+<
+java:S1170"!Make this final field static too.(úÚÚûÿÿÿÿ
+t
+java:S2293"YReplace the type specification in this constructor call with the diamond operator ("<>").(†Îêúûÿÿÿÿ

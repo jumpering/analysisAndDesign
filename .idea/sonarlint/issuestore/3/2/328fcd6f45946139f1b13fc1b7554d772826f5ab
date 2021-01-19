@@ -1,0 +1,19 @@
+
+>
+<<<<<<< HEAD
+java:S1170"!Make this final field static too.(†¹ë²8ÿõëŠà.
+u
+java:S1450"SRemove the "game" field and declare it as a local variable in the relevant methods.(Ä¿–Žøÿÿÿÿ8ÿõëŠà.
+t	java:S116"XRename this field "RESUME_ANSWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îíËË8ÿõëŠà.
+>
+java:S1170"!Make this final field static too.(îíËË8ÿõëŠà.
+l	java:S116"PRename this field "TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¹ë²8ÿõëŠà.
+=======
+java:S1170"!Make this final field static too.(îíËË8ÿõëŠà.
+t	java:S116"XRename this field "RESUME_ANSWER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(îíËË8ÿõëŠà.
+u
+java:S1450"SRemove the "game" field and declare it as a local variable in the relevant methods.(Ä¿–Žøÿÿÿÿ8ÿõëŠà.
+l	java:S116"PRename this field "TITLE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(†¹ë²8ÿõëŠà.
+>
+java:S1170"!Make this final field static too.(†¹ë²8ÿõëŠà.
+>>>>>>> 3f400a771c543900ce7ef78ddb7e806c8978a15b

@@ -1,0 +1,39 @@
+@startuml
+abstract class Mastermind
+class ConsoleMastermind
+class GraphicMastermind
+
+Mastermind *--> models.Logic
+ConsoleMastermind -up-|> Mastermind
+GraphicMastermind -up-|> Mastermind
+ConsoleMastermind *--> views.View
+models.Logic --> controllers.Controller
+views.console.ConsoleView -up-|> views.View
+views.graphic.GraphicView -up-|> views.View
+
+views.console.ConsoleView *--> views.console.GameView
+views.console.GameView --> views.console.AttemptView
+views.console.GameView --> views.console.SecretCombinationView
+views.console.GameView --> views.console.ProposedCombinationView
+controllers.Controller ..> controllers.StartController
+controllers.Controller ..> controllers.ProposedCombinationController
+controllers.Controller ..> controllers.ResumeController
+namespace models{
+class Attempt{}
+class Color{}
+class Combination{}
+class Game{}
+class Message{}
+class ProposedCombination{}
+class SecretCombination{}
+class State{}
+class StateValue{}
+}
+namespace views{
+namespace console{}
+namespace graphic{
+class GraphicView{}
+}
+}
+
+@enduml

@@ -1,0 +1,13 @@
+
+<<<<<<< HEAD
+x	java:S116"]Rename this field "COMBINATION_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î®¥I8¾Ò®‹à.
+=
+java:S1170"!Make this final field static too.(î®¥I8¾Ò®‹à.
+[
+java:S5993
+"9Change the visibility of this constructor to "protected".(èšçèÿÿÿÿÿ8§¼£â.
+=======
+=
+java:S1170"!Make this final field static too.(î®¥I8¾Ò®‹à.
+x	java:S116"]Rename this field "COMBINATION_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(î®¥I8¾Ò®‹à.
+>>>>>>> 3f400a771c543900ce7ef78ddb7e806c8978a15b

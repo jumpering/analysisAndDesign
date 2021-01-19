@@ -1,0 +1,32 @@
+
+<<<<<<< HEAD
+€	java:S116	"dRename this field "TEXT_WRONG_PROPOSE_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÚð8àòŠ‹à.
+Ž	java:S116"mRename this field "TEXT_WRONG_PROPOSE_REPEATED_COLORS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñá¬¡þÿÿÿÿ8†µ‹à.
+…	java:S116
+"dRename this field "TEXT_WRONG_PROPOSE_COLORS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»­ÎÃûÿÿÿÿ8ÝÆŒ‹à.
+s	java:S116"WRename this field "TEXT_PROPOSE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œðëÄ8×ö…‹à.
+>
+java:S1170"!Make this final field static too.(œðëÄ8˜é„‹à.
+C
+java:S1170
+"!Make this final field static too.(»­ÎÃûÿÿÿÿ8øù‹‹à.
+>
+java:S1170	"!Make this final field static too.(íÚð8ØÅ‡‹à.
+C
+java:S1170"!Make this final field static too.(ñá¬¡þÿÿÿÿ8°êŽ‹à.
+=======
+Ž	java:S116"mRename this field "TEXT_WRONG_PROPOSE_REPEATED_COLORS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñá¬¡þÿÿÿÿ8†µ‹à.
+…	java:S116
+"dRename this field "TEXT_WRONG_PROPOSE_COLORS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»­ÎÃûÿÿÿÿ8ÝÆŒ‹à.
+C
+java:S1170
+"!Make this final field static too.(»­ÎÃûÿÿÿÿ8øù‹‹à.
+C
+java:S1170"!Make this final field static too.(ñá¬¡þÿÿÿÿ8°êŽ‹à.
+s	java:S116"WRename this field "TEXT_PROPOSE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œðëÄ8×ö…‹à.
+>
+java:S1170"!Make this final field static too.(œðëÄ8˜é„‹à.
+€	java:S116	"dRename this field "TEXT_WRONG_PROPOSE_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÚð8àòŠ‹à.
+>
+java:S1170	"!Make this final field static too.(íÚð8ØÅ‡‹à.
+>>>>>>> 3f400a771c543900ce7ef78ddb7e806c8978a15b

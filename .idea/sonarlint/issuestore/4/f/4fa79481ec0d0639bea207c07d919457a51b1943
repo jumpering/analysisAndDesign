@@ -1,0 +1,16 @@
+
+7
+java:S1170	"!Make this final field static too.(œğëÄ
+<
+java:S1170"!Make this final field static too.(»­ÎÃûÿÿÿÿ
+l	java:S116	"WRename this field "TEXT_PROPOSE" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(œğëÄ
+<
+java:S1170"!Make this final field static too.(ñá¬¡şÿÿÿÿ
+‡	java:S116"mRename this field "TEXT_WRONG_PROPOSE_REPEATED_COLORS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ñá¬¡şÿÿÿÿ
+o	java:S120"ZRename this package name to match the regular expression '^[a-z_]+(\.[a-z_][a-z0-9_]*)*$'.(Á¶Ë¨
+y	java:S116
+"dRename this field "TEXT_WRONG_PROPOSE_LENGTH" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(íÚğ
+7
+java:S1170
+"!Make this final field static too.(íÚğ
+~	java:S116"dRename this field "TEXT_WRONG_PROPOSE_COLORS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(»­ÎÃûÿÿÿÿ

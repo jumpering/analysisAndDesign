@@ -1,0 +1,110 @@
+@startuml
+
+title Mastermind Controler View
+
+class MastermindConsole{
+- game : Game
+- view : View
++ play() : void
+{static} main :void
+}
+MastermindConsole *--> models.Game
+MastermindConsole *--> views.console.View
+class MastermindGraphic{
+- game : Game
+- view : View
++ play() : void
+{static} main :void
+}
+MastermindGraphic *--> models.Game
+MastermindGraphic *--> views.graphic.View
+
+
+namespace views.graphic{
+class View{
+- gameView : GameView
+- resumeView : ResumeView
+- game : Game
+- reset : void
++ interact : void
+}
+}
+namespace views.console{
+class View{
+- gameView : GameView
+- resumeView : ResumeView
+- game : Game
+- reset : void
++ interact : void
+}
+class GameView{
+- game : Game
+- attemptView : AttemptView
+- secretCombination : SecretCombination
++ interact() : void
+- writeNumOfAttempts() : void
+- writeSecretCombination : void
+- addAttempt() : void
+- writeAttempts() : void
++ writeResult() : void
+}
+class ResumeView{
++ interact() : void
+}
+class AttemptView{
+- game : Game
++ writeln(int attempts) : void
++ interact(SecretCombination secretCombination) : void
++{static} writeColors(Attempt addAttempt) : void
+}
+class SecretCombinationView{
+- secretCombination : SecretCombination
++ writeln() : void
++ getSecretCombination() : SecretCombination
+- writeColors() : void
+}
+View *--> GameView
+View ..> ResumeView
+GameView o--> AttemptView
+GameView *--> SecretCombinationView
+}
+
+namespace models{
+Enum Color{
+RED
+BLUE
+YELLOW
+ORANGE
+PINK
+GREEN
++ toChar() : char
++ {static} valueOf(char character) : Color
++ {static} isValidColor(char character) : boolean
+}
+class Game{
+- attemptList : List<Attempt>
++ addAttempt : void
++ getNumOfAttempts : int
++ getAttemptListSize : int
++ isFinished : boolean
++ isWinner : boolean
++ isLooser : boolean
++ resetAttemptList : void
+}
+Game o-->"0-10" Attempt
+Attempt *--> ProposedCombination
+Attempt *--> SecretCombination
+Combination <|-down- ProposedCombination
+Combination <|-down- SecretCombination
+Combination *-->"4" Color
+}
+
+namespace utils{
+views.console.View ..> IO
+views.console.GameView ..> IO
+views.console.SecretCombinationView ..> IO
+views.console.AttemptView ..> IO
+views.console.ResumeView ..> YesNoDialog
+
+}
+@enduml
